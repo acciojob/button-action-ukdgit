@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './../styles/App.css';
 
-export default function App(props) {
+const App = (props) => {
   const [flag, setFlag] = useState(false);
 
   return (
@@ -16,3 +16,5 @@ export default function App(props) {
     </div>
   );
 }
+
+export default App
